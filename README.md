@@ -1,6 +1,6 @@
 # ios-decal-final-proj
 
-# Bearly Awake or SleepBee  
+# SleepBee  
 ## Authors
 - Jasmine Lee
 - Yueyi (Annie) Wang 
