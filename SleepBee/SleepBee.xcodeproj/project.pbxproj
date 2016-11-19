@@ -521,6 +521,7 @@
 				B3C776841DE0F97700796B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C776851DE0F97700796B32 /* Build configuration list for PBXNativeTarget "SleepBeeTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +530,7 @@
 				B3C776871DE0F97700796B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C776881DE0F97700796B32 /* Build configuration list for PBXNativeTarget "SleepBeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +539,7 @@
 				B3C7768A1DE0F97700796B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
