@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004710E31DE10644007DF99D /* CustomSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004710E21DE10644007DF99D /* CustomSoundViewController.swift */; };
 		B3C7765C1DE0F97600796B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765B1DE0F97600796B32 /* AppDelegate.swift */; };
 		B3C7765E1DE0F97600796B32 /* ChooseNapDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */; };
 		B3C776601DE0F97600796B32 /* DataLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004710E21DE10644007DF99D /* CustomSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSoundViewController.swift; sourceTree = "<group>"; };
 		B3C776581DE0F97600796B32 /* SleepBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C7765B1DE0F97600796B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNapDurationViewController.swift; sourceTree = "<group>"; };
@@ -106,14 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				B3C7765B1DE0F97600796B32 /* AppDelegate.swift */,
+				B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */,
+				B3C776611DE0F97600796B32 /* Main.storyboard */,
 				B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */,
 				B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */,
-				B3C776611DE0F97600796B32 /* Main.storyboard */,
+				004710E21DE10644007DF99D /* CustomSoundViewController.swift */,
 				B3C776641DE0F97600796B32 /* Assets.xcassets */,
 				B3C776661DE0F97600796B32 /* LaunchScreen.storyboard */,
 				B3C776691DE0F97600796B32 /* Info.plist */,
 				B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */,
-				B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */,
 				B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */,
 			);
 			path = SleepBee;
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C7768C1DE0FAB300796B32 /* TimerViewController.swift in Sources */,
+				004710E31DE10644007DF99D /* CustomSoundViewController.swift in Sources */,
 				B3C776601DE0F97600796B32 /* DataLogViewController.swift in Sources */,
 				B3C7765C1DE0F97600796B32 /* AppDelegate.swift in Sources */,
 				B3C7765E1DE0F97600796B32 /* ChooseNapDurationViewController.swift in Sources */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -63,7 +63,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sound"/>
                                 <connections>
-                                    <segue destination="5Kt-fK-nak" kind="show" id="qOr-zA-1kC"/>
+                                    <segue destination="kmv-yc-EtL" kind="show" id="iWm-Ip-wKn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -121,35 +121,77 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--SoundView-->
-        <scene sceneID="Kmq-xL-NnH">
+        <!--Sound View Controller-->
+        <scene sceneID="DjQ-4k-q6G">
             <objects>
-                <viewController title="SoundView" id="5Kt-fK-nak" sceneMemberID="viewController">
+                <viewController id="kmv-yc-EtL" customClass="SoundViewController" customModule="SleepBee" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BWY-rq-LhT"/>
-                        <viewControllerLayoutGuide type="bottom" id="Uq7-VS-CRm"/>
+                        <viewControllerLayoutGuide type="top" id="Ys8-ys-aFA"/>
+                        <viewControllerLayoutGuide type="bottom" id="0NB-Hm-bQ8"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8dE-1N-saP">
+                    <view key="view" contentMode="scaleToFill" id="Dz4-Rp-VNr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMB-fu-mOv">
-                                <frame key="frameInset" minX="143" minY="147" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWA-LW-p4O">
+                                <frame key="frameInset" minX="137" minY="105" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Radar(Default)"/>
+                                <connections>
+                                    <action selector="Radar:" destination="kmv-yc-EtL" eventType="touchUpInside" id="ayq-4r-j9t"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqh-kK-JQn">
-                                <frame key="frameInset" minX="143" minY="219" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgQ-R0-QOF">
+                                <frame key="frameInset" minX="157" minY="177" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Marimba"/>
+                                <connections>
+                                    <action selector="Marimba:" destination="kmv-yc-EtL" eventType="touchUpInside" id="DOO-ZU-b15"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81g-Gy-LRP">
+                                <frame key="frameInset" minX="140" minY="249" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ocean Waves"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6l-ox-fvb">
+                                <frame key="frameInset" minX="160" minY="376" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Custom"/>
+                                <connections>
+                                    <segue destination="Wao-ZR-vR9" kind="show" id="E2M-fX-chy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4O-YS-KCU">
+                                <frame key="frameInset" minX="158" minY="313" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Bird Calls"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YWG-Ap-zXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J05-Co-47n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1582" y="-939"/>
+            <point key="canvasLocation" x="1657" y="-931"/>
+        </scene>
+        <!--Custom Sound View Controller-->
+        <scene sceneID="stw-ab-Hhy">
+            <objects>
+                <viewController id="Wao-ZR-vR9" customClass="CustomSoundViewController" customModule="SleepBee" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X4f-Ew-QJO"/>
+                        <viewControllerLayoutGuide type="bottom" id="kUt-ca-oBs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="20I-DD-Xoh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zjQ-RK-2zQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2440" y="-931"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -176,6 +218,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="umn-Nm-j3q"/>
+        <segue reference="p4g-tB-iKa"/>
     </inferredMetricsTieBreakers>
 </document>
