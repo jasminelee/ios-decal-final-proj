@@ -74,7 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sound"/>
                                 <connections>
-                                    <segue destination="G7f-W7-Z8k" kind="show" id="qR3-eN-FJ4"/>
+                                    <segue destination="G7f-W7-Z8k" kind="show" id="ztc-eM-bFC"/>
                                 </connections>
                             </button>
                         </subviews>
