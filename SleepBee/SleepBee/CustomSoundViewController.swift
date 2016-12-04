@@ -1,14 +1,14 @@
 //
-//  LaunchViewController.swift
+//  CustomSoundViewController.swift
 //  SleepBee
 //
-//  Created by Alexis Tran on 11/19/16.
+//  Created by Jasmine Lee on 11/19/16.
 //  Copyright © 2016 Alexis Tran. All rights reserved.
 //
 
 import UIKit
 
-class LaunchViewController: UIViewController {
+class CustomSoundViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

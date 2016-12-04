@@ -5,7 +5,6 @@
 - Jasmine Lee
 - Yueyi (Annie) Wang 
 - Alexis Tran
-- Tianyi (Bonnie) Sun
 
 ## Purpose
 We are aiming to use our app to optimize nap times for sleep deprived students and others, also serving as a customizable (nap) alarm clock.
@@ -15,14 +14,12 @@ We are aiming to use our app to optimize nap times for sleep deprived students a
 * Ability to get nap recommendations
 * Ability to create customized nap experiences
 * Ability to choose alarm sounds 
-* Additional: Track nap progress/ data
 
 ## Control Flow
 * Startup screen - logo
 * Input screen - user data for nap suggestions
-* What time the user needs to wake up
-* What type of nap the user is looking for. Show a drop down menu or list of options like: [15 (quick refresher), 45 (meh), 90 min (great!), or custom]
-* List of (filtered) nap options/customized time 
+* How long the user wants to sleep for.
+* What type of nap the user is looking for. Provide information about possible nap times like: [15 (quick refresher), 30 (meh), 60(yas) 90 min (great!), or custom (yass)]
 * Alarm Clock Screen
 
 ## Implementation
@@ -31,13 +28,13 @@ We are aiming to use our app to optimize nap times for sleep deprived students a
 
 ### View
 * StartupScreenView
-* GetUserInputView
-* AlarmsOptionsListView
+* ChooseNapDurationView
+* SoundView
 * AlarmClockView
 
 ### Controller
 * StartupScreenViewController
-* GetUserInputViewController
-* AlarmsOptionsListViewController
+* ChooseNapDurationViewController
+* SoundViewController
 * AlarmClockViewController
 
