@@ -79,7 +79,7 @@
                                 <state key="normal" title="Sound"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.99746554910706875" green="1" blue="0.60401310629632921" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
                             <constraint firstItem="Q7G-ra-kts" firstAttribute="centerX" secondItem="rGb-7H-7SK" secondAttribute="centerX" id="cZV-id-mSA"/>
                             <constraint firstItem="Q7G-ra-kts" firstAttribute="centerY" secondItem="rGb-7H-7SK" secondAttribute="centerY" id="ePe-3g-fjF"/>
@@ -118,7 +118,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.99746554909999996" green="1" blue="0.60401310630000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
                             <constraint firstItem="SMT-Eq-Wnj" firstAttribute="centerY" secondItem="90N-NM-tuN" secondAttribute="centerY" id="Q30-m9-Fo6"/>
                             <constraint firstItem="SMT-Eq-Wnj" firstAttribute="centerX" secondItem="90N-NM-tuN" secondAttribute="centerX" id="VMK-lQ-yoc"/>
@@ -140,7 +140,7 @@
                     <view key="view" contentMode="scaleToFill" id="U0G-th-zpU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99746554909999996" green="1" blue="0.60401310630000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="ivZ-1y-OIy"/>
                 </viewController>
@@ -191,7 +191,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.99746554909999996" green="1" blue="0.60401310630000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                         <constraints>
                             <constraint firstItem="xuq-fx-Tx8" firstAttribute="centerX" secondItem="PMg-Eq-yCq" secondAttribute="centerX" id="NGW-E1-vjV"/>
                             <constraint firstItem="xuq-fx-Tx8" firstAttribute="centerY" secondItem="PMg-Eq-yCq" secondAttribute="centerY" id="ayq-63-JEB"/>
@@ -213,7 +213,7 @@
                     <view key="view" contentMode="scaleToFill" id="W8c-WS-IKh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99746554909999996" green="1" blue="0.60401310630000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vq8-vg-a7v" userLabel="First Responder" sceneMemberID="firstResponder"/>

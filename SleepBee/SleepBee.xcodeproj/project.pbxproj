@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		004710E31DE10644007DF99D /* CustomSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004710E21DE10644007DF99D /* CustomSoundViewController.swift */; };
+		B397CEAD1DF38A9800042AC8 /* 690x960.png in Resources */ = {isa = PBXBuildFile; fileRef = B397CEAC1DF38A9800042AC8 /* 690x960.png */; };
+		B397CEAF1DF38B6100042AC8 /* 320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = B397CEAE1DF38B6100042AC8 /* 320x480.png */; };
 		B3C7765C1DE0F97600796B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765B1DE0F97600796B32 /* AppDelegate.swift */; };
 		B3C7765E1DE0F97600796B32 /* ChooseNapDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */; };
 		B3C776601DE0F97600796B32 /* DataLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */; };
 		B3C776631DE0F97600796B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C776611DE0F97600796B32 /* Main.storyboard */; };
 		B3C776651DE0F97600796B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C776641DE0F97600796B32 /* Assets.xcassets */; };
-		B3C776681DE0F97600796B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C776661DE0F97600796B32 /* LaunchScreen.storyboard */; };
 		B3C776731DE0F97700796B32 /* SleepBeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C776721DE0F97700796B32 /* SleepBeeTests.swift */; };
 		B3C7767E1DE0F97700796B32 /* SleepBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7767D1DE0F97700796B32 /* SleepBeeUITests.swift */; };
 		B3C7768C1DE0FAB300796B32 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */; };
 		B3C7768E1DE0FAE500796B32 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */; };
-		B3C776921DE0FBE400796B32 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,14 @@
 
 /* Begin PBXFileReference section */
 		004710E21DE10644007DF99D /* CustomSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSoundViewController.swift; sourceTree = "<group>"; };
+		B397CEAC1DF38A9800042AC8 /* 690x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 690x960.png; path = ../../../../Desktop/690x960.png; sourceTree = "<group>"; };
+		B397CEAE1DF38B6100042AC8 /* 320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 320x480.png; path = ../../../../Desktop/320x480.png; sourceTree = "<group>"; };
 		B3C776581DE0F97600796B32 /* SleepBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C7765B1DE0F97600796B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNapDurationViewController.swift; sourceTree = "<group>"; };
 		B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogViewController.swift; sourceTree = "<group>"; };
 		B3C776621DE0F97600796B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3C776641DE0F97600796B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3C776671DE0F97600796B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3C776691DE0F97600796B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C7766E1DE0F97700796B32 /* SleepBeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepBeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C776721DE0F97700796B32 /* SleepBeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepBeeTests.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		B3C7767F1DE0F97700796B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
-		B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +113,11 @@
 				B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */,
 				B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */,
 				004710E21DE10644007DF99D /* CustomSoundViewController.swift */,
+				B397CEAE1DF38B6100042AC8 /* 320x480.png */,
 				B3C776641DE0F97600796B32 /* Assets.xcassets */,
-				B3C776661DE0F97600796B32 /* LaunchScreen.storyboard */,
+				B397CEAC1DF38A9800042AC8 /* 690x960.png */,
 				B3C776691DE0F97600796B32 /* Info.plist */,
 				B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */,
-				B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */,
 			);
 			path = SleepBee;
 			sourceTree = "<group>";
@@ -247,10 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C776681DE0F97600796B32 /* LaunchScreen.storyboard in Resources */,
 				B3C776651DE0F97600796B32 /* Assets.xcassets in Resources */,
-				B3C776921DE0FBE400796B32 /* Launch Screen.storyboard in Resources */,
+				B397CEAF1DF38B6100042AC8 /* 320x480.png in Resources */,
 				B3C776631DE0F97600796B32 /* Main.storyboard in Resources */,
+				B397CEAD1DF38A9800042AC8 /* 690x960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,14 +322,6 @@
 				B3C776621DE0F97600796B32 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3C776661DE0F97600796B32 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3C776671DE0F97600796B32 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SleepBee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexisTran.SleepBee;
@@ -444,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SleepBee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexisTran.SleepBee;
