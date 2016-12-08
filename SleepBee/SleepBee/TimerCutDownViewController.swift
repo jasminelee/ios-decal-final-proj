@@ -80,9 +80,13 @@ class TimerCutDownViewController: UIViewController,AVAudioPlayerDelegate {
     }
     
     func restartPressed() {
-        if audioPlayer.isPlaying{
-            audioPlayer.stop();
+        if (audioPlayer != nil){
+            if audioPlayer.isPlaying{
+                audioPlayer.stop();
+                
+            }
         }
+
         isTiming = true;
         curentTime = cutDownTime;
         timer.fireDate = Date.distantPast;
@@ -94,13 +98,16 @@ class TimerCutDownViewController: UIViewController,AVAudioPlayerDelegate {
         curentTime -= 1;
         timeShowLa.text = self.getShowStrByTime(time: self.curentTime);
         if curentTime == 0 {
-            sleepArray.add(String(cutDownTime));
+            sleepArray.add(String(cutDownTime/60));
             sleependTimeArray.add(self.stringToTimeStamp());
             timer.fireDate = Date.distantFuture;
             timeShowLa.text = "Bzz bzz! Time to wake up!"
             let resource = user.defultSound;
            let url = NSURL.fileURL(withPath: Bundle.main.path(forResource: resource, ofType: "mp3")!)
             do {
+                if (audioPlayer != nil ){
+                    audioPlayer = nil;
+                }
                 let sound = try AVAudioPlayer(contentsOf: url)
                 audioPlayer = sound
                 sound.numberOfLoops = 100000;
@@ -130,7 +137,13 @@ class TimerCutDownViewController: UIViewController,AVAudioPlayerDelegate {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated);
         timer.invalidate();
-        audioPlayer.stop();
+        if (audioPlayer != nil){
+            if audioPlayer.isPlaying{
+                audioPlayer.stop();
+                
+            }
+        }
+        
         timer = nil;
     }
 
