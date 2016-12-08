@@ -10,13 +10,23 @@
 		000B209D1DF3A6880017FEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000B209C1DF3A6880017FEB5 /* Main.storyboard */; };
 		004710E31DE10644007DF99D /* CustomSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004710E21DE10644007DF99D /* CustomSoundViewController.swift */; };
 		006280D71DF3A8D50031E53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006280D61DF3A8D50031E53C /* Assets.xcassets */; };
+		14282A4E1DF7A14500FE329D /* Confing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14282A4D1DF7A14500FE329D /* Confing.swift */; };
+		14282A511DF7A37A00FE329D /* CustomTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14282A501DF7A37A00FE329D /* CustomTimeTableViewCell.swift */; };
+		14A49AD21DF7B19F00A05C73 /* TimerCutDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A49AD11DF7B19F00A05C73 /* TimerCutDownViewController.swift */; };
+		14A49AD61DF803B400A05C73 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A49AD51DF803B400A05C73 /* UserInfo.swift */; };
+		14A49AD91DF80AD600A05C73 /* Radar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14A49AD81DF80AD600A05C73 /* Radar.mp3 */; };
+		14A49ADB1DF80B4800A05C73 /* Pan fiute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14A49ADA1DF80B4800A05C73 /* Pan fiute.mp3 */; };
+		14A49ADD1DF80B4D00A05C73 /* Gentle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14A49ADC1DF80B4D00A05C73 /* Gentle.mp3 */; };
+		14A49ADF1DF80B8E00A05C73 /* Bacon pancakes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14A49ADE1DF80B8E00A05C73 /* Bacon pancakes.mp3 */; };
+		14A49AE11DF80BE400A05C73 /* Ocean Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14A49AE01DF80BE400A05C73 /* Ocean Waves.mp3 */; };
+		14A49AE31DF80C5E00A05C73 /* Bird Calls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14A49AE21DF80C5E00A05C73 /* Bird Calls.mp3 */; };
+		14A49AE51DF82D0500A05C73 /* DesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A49AE41DF82D0500A05C73 /* DesTableViewCell.swift */; };
 		B3C7765C1DE0F97600796B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765B1DE0F97600796B32 /* AppDelegate.swift */; };
 		B3C7765E1DE0F97600796B32 /* ChooseNapDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */; };
 		B3C776601DE0F97600796B32 /* DataLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */; };
 		B3C776681DE0F97600796B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C776661DE0F97600796B32 /* LaunchScreen.storyboard */; };
 		B3C776731DE0F97700796B32 /* SleepBeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C776721DE0F97700796B32 /* SleepBeeTests.swift */; };
 		B3C7767E1DE0F97700796B32 /* SleepBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7767D1DE0F97700796B32 /* SleepBeeUITests.swift */; };
-		B3C7768C1DE0FAB300796B32 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */; };
 		B3C7768E1DE0FAE500796B32 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */; };
 		B3C776921DE0FBE400796B32 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
@@ -42,6 +52,17 @@
 		000B209C1DF3A6880017FEB5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		004710E21DE10644007DF99D /* CustomSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSoundViewController.swift; sourceTree = "<group>"; };
 		006280D61DF3A8D50031E53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14282A4D1DF7A14500FE329D /* Confing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confing.swift; sourceTree = "<group>"; };
+		14282A501DF7A37A00FE329D /* CustomTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTimeTableViewCell.swift; sourceTree = "<group>"; };
+		14A49AD11DF7B19F00A05C73 /* TimerCutDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCutDownViewController.swift; sourceTree = "<group>"; };
+		14A49AD51DF803B400A05C73 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		14A49AD81DF80AD600A05C73 /* Radar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Radar.mp3; sourceTree = "<group>"; };
+		14A49ADA1DF80B4800A05C73 /* Pan fiute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pan fiute.mp3"; sourceTree = "<group>"; };
+		14A49ADC1DF80B4D00A05C73 /* Gentle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gentle.mp3; sourceTree = "<group>"; };
+		14A49ADE1DF80B8E00A05C73 /* Bacon pancakes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bacon pancakes.mp3"; sourceTree = "<group>"; };
+		14A49AE01DF80BE400A05C73 /* Ocean Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ocean Waves.mp3"; sourceTree = "<group>"; };
+		14A49AE21DF80C5E00A05C73 /* Bird Calls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bird Calls.mp3"; sourceTree = "<group>"; };
+		14A49AE41DF82D0500A05C73 /* DesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesTableViewCell.swift; sourceTree = "<group>"; };
 		B3C776581DE0F97600796B32 /* SleepBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C7765B1DE0F97600796B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNapDurationViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +75,6 @@
 		B3C776791DE0F97700796B32 /* SleepBeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepBeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C7767D1DE0F97700796B32 /* SleepBeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepBeeUITests.swift; sourceTree = "<group>"; };
 		B3C7767F1DE0F97700796B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +104,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14282A4F1DF7A36000FE329D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				14282A501DF7A37A00FE329D /* CustomTimeTableViewCell.swift */,
+				14A49AE41DF82D0500A05C73 /* DesTableViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		14A49AD71DF80AD100A05C73 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				14A49AE21DF80C5E00A05C73 /* Bird Calls.mp3 */,
+				14A49AE01DF80BE400A05C73 /* Ocean Waves.mp3 */,
+				14A49ADE1DF80B8E00A05C73 /* Bacon pancakes.mp3 */,
+				14A49ADC1DF80B4D00A05C73 /* Gentle.mp3 */,
+				14A49ADA1DF80B4800A05C73 /* Pan fiute.mp3 */,
+				14A49AD81DF80AD600A05C73 /* Radar.mp3 */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		B3C7764F1DE0F97600796B32 = {
 			isa = PBXGroup;
 			children = (
@@ -107,17 +149,21 @@
 		B3C7765A1DE0F97600796B32 /* SleepBee */ = {
 			isa = PBXGroup;
 			children = (
+				14A49AD71DF80AD100A05C73 /* resource */,
+				14282A4F1DF7A36000FE329D /* views */,
 				B3C7765B1DE0F97600796B32 /* AppDelegate.swift */,
-				B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */,
-				B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */,
 				000B209C1DF3A6880017FEB5 /* Main.storyboard */,
-				B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */,
 				006280D61DF3A8D50031E53C /* Assets.xcassets */,
 				004710E21DE10644007DF99D /* CustomSoundViewController.swift */,
 				B3C776661DE0F97600796B32 /* LaunchScreen.storyboard */,
 				B3C776691DE0F97600796B32 /* Info.plist */,
-				B3C7768B1DE0FAB300796B32 /* TimerViewController.swift */,
 				B3C776911DE0FBE400796B32 /* Launch Screen.storyboard */,
+				14282A4D1DF7A14500FE329D /* Confing.swift */,
+				14A49AD51DF803B400A05C73 /* UserInfo.swift */,
+				B3C7765D1DE0F97600796B32 /* ChooseNapDurationViewController.swift */,
+				14A49AD11DF7B19F00A05C73 /* TimerCutDownViewController.swift */,
+				B3C7768D1DE0FAE500796B32 /* SoundViewController.swift */,
+				B3C7765F1DE0F97600796B32 /* DataLogViewController.swift */,
 			);
 			path = SleepBee;
 			sourceTree = "<group>";
@@ -208,6 +254,7 @@
 				TargetAttributes = {
 					B3C776571DE0F97600796B32 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YT3528CMQJ;
 						ProvisioningStyle = Automatic;
 					};
 					B3C7766D1DE0F97700796B32 = {
@@ -248,7 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C776681DE0F97600796B32 /* LaunchScreen.storyboard in Resources */,
+				14A49ADF1DF80B8E00A05C73 /* Bacon pancakes.mp3 in Resources */,
 				000B209D1DF3A6880017FEB5 /* Main.storyboard in Resources */,
+				14A49AD91DF80AD600A05C73 /* Radar.mp3 in Resources */,
+				14A49ADD1DF80B4D00A05C73 /* Gentle.mp3 in Resources */,
+				14A49AE11DF80BE400A05C73 /* Ocean Waves.mp3 in Resources */,
+				14A49AE31DF80C5E00A05C73 /* Bird Calls.mp3 in Resources */,
+				14A49ADB1DF80B4800A05C73 /* Pan fiute.mp3 in Resources */,
 				006280D71DF3A8D50031E53C /* Assets.xcassets in Resources */,
 				B3C776921DE0FBE400796B32 /* Launch Screen.storyboard in Resources */,
 			);
@@ -275,11 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C7768C1DE0FAB300796B32 /* TimerViewController.swift in Sources */,
+				14A49AE51DF82D0500A05C73 /* DesTableViewCell.swift in Sources */,
+				14A49AD21DF7B19F00A05C73 /* TimerCutDownViewController.swift in Sources */,
+				14282A4E1DF7A14500FE329D /* Confing.swift in Sources */,
 				004710E31DE10644007DF99D /* CustomSoundViewController.swift in Sources */,
 				B3C776601DE0F97600796B32 /* DataLogViewController.swift in Sources */,
 				B3C7765C1DE0F97600796B32 /* AppDelegate.swift in Sources */,
+				14282A511DF7A37A00FE329D /* CustomTimeTableViewCell.swift in Sources */,
 				B3C7765E1DE0F97600796B32 /* ChooseNapDurationViewController.swift in Sources */,
+				14A49AD61DF803B400A05C73 /* UserInfo.swift in Sources */,
 				B3C7768E1DE0FAE500796B32 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +482,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YT3528CMQJ;
 				INFOPLIST_FILE = SleepBee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AlexisTran.SleepBee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumart.vcforqa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -438,9 +497,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YT3528CMQJ;
 				INFOPLIST_FILE = SleepBee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AlexisTran.SleepBee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wumart.vcforqa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
