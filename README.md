@@ -5,6 +5,7 @@
 - Jasmine Lee
 - Yueyi (Annie) Wang 
 - Alexis Tran
+- Tianyi (Bonnie) Sun
 
 ## Purpose
 We are aiming to use our app to optimize nap times for sleep deprived students and others, also serving as a customizable (nap) alarm clock.
